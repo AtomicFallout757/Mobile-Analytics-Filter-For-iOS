@@ -1,0 +1,40 @@
+[Adblock Plus 2.0]
+! Title: Mobile Analytics Filter For iOS
+! Version: 1.0.0
+! Last modified: May 18th 2021, 12:42 PM MST
+! Homepage: _ _ _
+! Description: A simple filter that blocks various analytics on iOS devices.
+! Credits: AdGuard for iOS and AtomicFallout757
+! Entries: 30
+!
+!----------Mobile Analytics Domains----------!
+||256b37b083ac0136c600123dfe2baf36.yottaa.net^
+||43a6fe60e806013555ed0a3ba3fac80a.yottaa.net^
+||app.adjust.com^
+||app-measurement.com^
+||apple-finance.query.yahoo.com^
+||c0.wp.com^
+||cdn.civicscience.com^
+||cdn.embedly.com^
+||cdn-fsly.yottaa.net^
+||cdn-us-ec.yottaa.net^
+||cds.s5x3j6q5.hwcdn.net^
+||collector-pxu6b0qd2s.perimeterx.net^
+||combine.urbanairship.com^
+||device-api.urbanairship.com^
+||dev.visualwebsiteoptimizer.com^
+||firebase-settings.crashlytics.com^
+||heapanalytics.com^
+||i0.wp.com^
+||i1.wp.com^
+||i2.wp.com^
+||i-cdn.embed.ly^
+||js.hs-scripts.com^
+||notify.bugsnag.com
+||remote-data.urbanairship.com^
+||reports.crashlytics.com^
+||sentry.io^
+||sessions.bugsnag.com^
+||settings.crashlytics.com^
+||s.w.org^
+||www138.civicscience.com^

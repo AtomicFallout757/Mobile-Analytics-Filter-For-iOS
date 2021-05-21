@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
 ! Title: Mobile Analytics Filter For iOS
-! Version: 1.0.0
-! Last modified: May 18th 2021, 12:42 PM MST
-! Homepage: _ _ _
-! Description: A simple filter that blocks various analytics on iOS devices.
-! Credits: AdGuard for iOS and AtomicFallout757
+! Version: 1.0.1
+! Last modified: May 21st 2021, 2:24 PM MST
+! Homepage: https://github.com/AtomicFallout757/Mobile-Analytics-Filter
+! Description: A simple filter that blocks various analytics on iOS devices. It blocks most analytics domains that aren't blocked by other lists (e.g. EasyPrivacy, etc.) but it does not block domains that are already blocked by other, popular lists, and thus this filter is best used alongside those other lists.
+! Credits: AtomicFallout757 and AdGuard For iOS
 ! Entries: 30
 !
 !----------Mobile Analytics Domains----------!
@@ -38,3 +38,9 @@
 ||settings.crashlytics.com^
 ||s.w.org^
 ||www138.civicscience.com^
+
+Release Notes:
+
+v1.0.0 • Initial private release.
+
+v1.0.1 • Initial public release, updated the description, credits, and homepage sections.

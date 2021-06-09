@@ -1,0 +1,63 @@
+[Adblock Plus 2.0]
+! Title: Mobile Analytics Filter For iOS
+! Version: 1.0.3
+! Last modified: June 9th 2021, 12:43 PM MST
+! Homepage: https://github.com/AtomicFallout757/Mobile-Analytics-Filter-For-iOS
+! Description: A simple filter that blocks various analytics on iOS devices. It blocks most analytics domains that aren't blocked by other lists (e.g. EasyPrivacy, etc.) but it does not block domains that are already blocked by other, popular lists, and thus this filter is best used alongside those other lists. Additionally, this should work on other operating systems just fine, but it will not block analytics unique to that OS.
+! Credits: AtomicFallout757 and AdGuard Pro For iOS
+! Entries: 33
+!
+!----------Mobile Analytics Domains----------!
+||256b37b083ac0136c600123dfe2baf36.yottaa.net^
+||43a6fe60e806013555ed0a3ba3fac80a.yottaa.net^
+||app.adjust.com^
+||app-measurement.com^
+||apple-finance.query.yahoo.com^
+||c0.wp.com^
+||cdn.civicscience.com^
+||cdn.embedly.com^
+||cdn-fsly.yottaa.net^
+||cdn-us-ec.yottaa.net^
+||cds.g9c9c3d5.hwcdn.net^
+||cds.s5x3j6q5.hwcdn.net^
+||cds.z8y8f3q6.hwcdn.net^
+||collector-pxu6b0qd2s.perimeterx.net^
+||combine.urbanairship.com^
+||device-api.urbanairship.com^
+||dev.visualwebsiteoptimizer.com^
+||firebase-settings.crashlytics.com^
+||heapanalytics.com^
+||i0.wp.com^
+||i1.wp.com^
+||i2.wp.com^
+||i-cdn.embed.ly^
+||js.hs-scripts.com^
+||notify.bugsnag.com
+||remote-data.urbanairship.com^
+||reports.crashlytics.com^
+||sentry.io^
+||sessions.bugsnag.com^
+||settings.crashlytics.com^
+||s0.wp.com^
+||s.w.org^
+||www138.civicscience.com^
+
+Release Notes:
+
+v1.0.0
+
+• Initial private release.
+
+v1.0.1
+
+• Initial public release.
+
+v1.0.2
+
+• Added the "s0.wp.com" domain.
+
+v1.0.3
+
+• Added the "cds.g9c9c3d5.hwcdn.net" domain.
+
+• Added the "cds.z8y8f3q6.hwcdn.net" domain.

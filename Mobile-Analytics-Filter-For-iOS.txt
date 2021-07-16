@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: Mobile Analytics Filter For iOS
 ! Version: 1.0.4
-! Last modified: June 24th 2021, 10:57 AM MST
+! Last modified: July 16th 2021, 11:35 AM MST
 ! Homepage: https://github.com/AtomicFallout757/Mobile-Analytics-Filter-For-iOS
 ! Description: A simple filter that blocks various analytics on iOS devices. It blocks most analytics domains that aren't blocked by other lists (e.g. EasyPrivacy, etc.) but it does not block domains that are already blocked by other, popular lists, and thus this filter is best used alongside those other lists. Additionally, this should work on other operating systems just fine, but it will not block analytics unique to that OS.
 ! Credits: AtomicFallout757 and AdGuard Pro For iOS
-! Entries: 34
+! Entries: 37
 !
 !----------Mobile Analytics Domains----------!
 ||256b37b083ac0136c600123dfe2baf36.yottaa.net^
@@ -18,6 +18,8 @@
 ||cdn.embedly.com^
 ||cdn-fsly.yottaa.net^
 ||cdn-us-ec.yottaa.net^
+||cdns.gigya.com^
+||cdns.us1.gigya.com^
 ||cds.g9c9c3d5.hwcdn.net^
 ||cds.s5x3j6q5.hwcdn.net^
 ||cds.z8y8f3q6.hwcdn.net^
@@ -36,6 +38,7 @@
 ||remote-data.urbanairship.com^
 ||reports.crashlytics.com^
 ||sentry.io^
+||socalize.us1.gigya.com^
 ||sessions.bugsnag.com^
 ||settings.crashlytics.com^
 ||s0.wp.com^
@@ -66,3 +69,11 @@ v1.0.3
 v1.0.4
 
 • Added the "s.yimg.com" domain.
+
+v1.0.5
+
+• Added the "cdns.gigya.com" domain.
+
+• Added the "cdns.us1.gigya.com" domain.
+
+• Added the "socialize.us1.gigya.com" domain.

@@ -1,13 +1,13 @@
 [Adblock Plus 2.0]
-! Title: Mobile Analytics Filter For iOS
-! Version: 1.0.5
-! Last modified: July 16th 2021, 11:36 AM MST
-! Homepage: https://github.com/AtomicFallout757/Mobile-Analytics-Filter-For-iOS
-! Description: A simple filter that blocks various analytics on iOS devices. It blocks most analytics domains that aren't blocked by other lists (e.g. EasyPrivacy, etc.) but it does not block domains that are already blocked by other, popular lists, and thus this filter is best used alongside those other lists. Additionally, this should work on other operating systems just fine, but it will not block analytics unique to that OS.
-! Credits: AtomicFallout757 and AdGuard Pro For iOS
-! Entries: 37
-!
-!----------Mobile Analytics Domains----------!
+Title: Mobile Analytics Filter For iOS
+Version: 1.0.6
+Last modified: August 4th 2021, 11:20 AM MST
+Homepage: https://github.com/AtomicFallout757/Mobile-Analytics-Filter-For-iOS
+Description: A simple filter that blocks various analytics on iOS devices. It blocks most analytics domains that aren't blocked by other lists (e.g. EasyPrivacy, etc.) but it does not block domains that are already blocked by other, popular lists, and thus this filter is best used alongside those other lists. Additionally, this should work on other operating systems just fine, but it will not block analytics unique to that OS.
+Credits: AtomicFallout757 and AdGuard Pro For iOS
+Entries: 39
+
+----------Mobile Analytics Domains----------
 ||256b37b083ac0136c600123dfe2baf36.yottaa.net^
 ||43a6fe60e806013555ed0a3ba3fac80a.yottaa.net^
 ||app.adjust.com^
@@ -21,6 +21,7 @@
 ||cdns.gigya.com^
 ||cdns.us1.gigya.com^
 ||cds.g9c9c3d5.hwcdn.net^
+||cds.q8q4g4t6.hwcdn.net^
 ||cds.s5x3j6q5.hwcdn.net^
 ||cds.z8y8f3q6.hwcdn.net^
 ||collector-pxu6b0qd2s.perimeterx.net^
@@ -41,6 +42,7 @@
 ||socalize.us1.gigya.com^
 ||sessions.bugsnag.com^
 ||settings.crashlytics.com^
+||snap.licdn.com^
 ||s0.wp.com^
 ||s.w.org^
 ||s.yimg.com^
@@ -77,3 +79,9 @@ v1.0.5
 • Added the "cdns.us1.gigya.com" domain.
 
 • Added the "socialize.us1.gigya.com" domain.
+
+v1.0.6
+
+• Added the "snap.licdn.com" domain.
+
+• Added the "cds.q8q4g4t6.hwcdn.net" domain.

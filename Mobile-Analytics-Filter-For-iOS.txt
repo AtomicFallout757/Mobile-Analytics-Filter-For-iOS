@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: Mobile Analytics Filter For iOS
-! Version: 1.08
-! Last modified: August 30th 2021, 11:32 AM MST
+! Version: 1.09
+! Last modified: November 8th 2021, 11:02 AM MST
 ! Website: https://github.com/AtomicFallout757/Mobile-Analytics-Filter-For-iOS
 ! Description: A simple filter that blocks various analytics on iOS devices. It blocks most analytics domains that aren't blocked by other lists (e.g. EasyPrivacy, etc.) but it does not block domains that are already blocked by other, popular lists, and thus this filter is best used alongside those other lists. Additionally, this should work on other operating systems just fine, but it will not block analytics unique to that OS.
 ! Credits: AtomicFallout757 and AdGuard Pro For iOS
-! Rules Count: 42
+! Rules Count: 44
 !
 !----------Mobile Analytics Domains----------!
 ||2-01-37d2-0006.cdx.cedexis.net^
@@ -23,9 +23,11 @@
 ||cdn-us-ec.yottaa.net^
 ||cdns.gigya.com^
 ||cdns.us1.gigya.com^
+||cds.d8q5m2a3.hwcdn.net^
 ||cds.g9c9c3d5.hwcdn.net^
 ||cds.q8q4g4t6.hwcdn.net^
 ||cds.s5x3j6q5.hwcdn.net^
+||cds.y8e8t2m5.hwcdn.net^
 ||cds.z8y8f3q6.hwcdn.net^
 ||collector-pxu6b0qd2s.perimeterx.net^
 ||combine.urbanairship.com^
@@ -98,3 +100,9 @@ v1.07
 v1.08
 
 • Added the "cdn.speedcurve.com" domain.
+
+v1.09
+
+• Added the "cds.d8q5m2a3.hwcdn.net" domain.
+
+• Added the "cds.y8e8t2m5.hwcdn.net" domain.

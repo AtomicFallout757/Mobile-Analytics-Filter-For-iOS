@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: Mobile Analytics Filter For iOS
-! Version: 1.09
-! Last modified: November 8th 2021, 11:02 AM MST
+! Version: 1.10
+! Last modified: November 22nd 2021, 11:05 AM MST
 ! Website: https://github.com/AtomicFallout757/Mobile-Analytics-Filter-For-iOS
 ! Description: A simple filter that blocks various analytics on iOS devices. It blocks most analytics domains that aren't blocked by other lists (e.g. EasyPrivacy, etc.) but it does not block domains that are already blocked by other, popular lists, and thus this filter is best used alongside those other lists. Additionally, this should work on other operating systems just fine, but it will not block analytics unique to that OS.
 ! Credits: AtomicFallout757 and AdGuard Pro For iOS
-! Rules Count: 44
+! Rules Count: 45
 !
 !----------Mobile Analytics Domains----------!
 ||2-01-37d2-0006.cdx.cedexis.net^
@@ -48,6 +48,7 @@
 ||sessions.bugsnag.com^
 ||settings.crashlytics.com^
 ||snap.licdn.com^
+||storage.pardot.com^
 ||s0.wp.com^
 ||s.w.org^
 ||s.yimg.com^
@@ -106,3 +107,7 @@ v1.09
 • Added the "cds.d8q5m2a3.hwcdn.net" domain.
 
 • Added the "cds.y8e8t2m5.hwcdn.net" domain.
+
+v1.10
+
+• Added the "storage.pardot.com" domain.

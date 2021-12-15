@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: Mobile Analytics Filter For iOS
-! Version: 1.10
-! Last modified: November 22nd 2021, 11:05 AM MST
+! Version: 1.11
+! Last modified: December 15th 2021, 2:20 PM MST
 ! Website: https://github.com/AtomicFallout757/Mobile-Analytics-Filter-For-iOS
 ! Description: A simple filter that blocks various analytics on iOS devices. It blocks most analytics domains that aren't blocked by other lists (e.g. EasyPrivacy, etc.) but it does not block domains that are already blocked by other, popular lists, and thus this filter is best used alongside those other lists. Additionally, this should work on other operating systems just fine, but it will not block analytics unique to that OS.
 ! Credits: AtomicFallout757 and AdGuard Pro For iOS
-! Rules Count: 45
+! Rules Count: 47
 !
 !----------Mobile Analytics Domains----------!
 ||2-01-37d2-0006.cdx.cedexis.net^
@@ -39,7 +39,9 @@
 ||i1.wp.com^
 ||i2.wp.com^
 ||i-cdn.embed.ly^
+||i.embed.ly^
 ||js.hs-scripts.com^
+||lowes15841z.btttag.com^
 ||notify.bugsnag.com
 ||remote-data.urbanairship.com^
 ||reports.crashlytics.com^
@@ -111,3 +113,9 @@ v1.09
 v1.10
 
 • Added the "storage.pardot.com" domain.
+
+v1.11
+
+• Added the "i.embed.ly" domain.
+
+• Added the "lowes15841z.btttag.com" domain.

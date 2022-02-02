@@ -1,13 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Mobile Analytics Filter For iOS
-! Version: 1.12
-! Last modified: January 10th 2022, 11:16 AM MST
+! Version: 1.13
+! Last modified: Frbruary 2nd 2022, 11:12 AM MST
 ! Website: https://github.com/AtomicFallout757/Mobile-Analytics-Filter-For-iOS
 ! Description: A simple filter that blocks various analytics on iOS devices. It blocks most analytics domains that aren't blocked by other lists (e.g. EasyPrivacy, etc.) but it does not block domains that are already blocked by other, popular lists, and thus this filter is best used alongside those other lists. Additionally, this should work on other operating systems just fine, but it will not block analytics unique to that OS.
 ! Credits: AtomicFallout757 and AdGuard Pro For iOS
-! Rules Count: 49
+! Rules Count: 51
 !
 !----------Mobile Analytics Domains----------!
+||2-01-37d2-0004-cdx.cedexis.net^
 ||2-01-37d2-0006.cdx.cedexis.net^
 ||256b37b083ac0136c600123dfe2baf36.yottaa.net^
 ||43a6fe60e806013555ed0a3ba3fac80a.yottaa.net^
@@ -35,6 +36,7 @@
 ||config.playwire.com^
 ||device-api.urbanairship.com^
 ||dev.visualwebsiteoptimizer.com^
+||ds-global3.l7.search.ystg1.b.yahoo.com^
 ||firebase-settings.crashlytics.com^
 ||heapanalytics.com^
 ||i0.wp.com^
@@ -127,3 +129,9 @@ v1.12
 • Added the "b47257d0a24c013668370a3ba3fac80a.yottaa.net" domain.
 
 • Added the "config.playwire.com" domain.
+
+v1.13
+
+• Added the "2-01-37d2-0004-cdx.cedexis.net" domain.
+
+• Added the "ds-global3.l7.search.ystg1.b.yahoo.com" domain.

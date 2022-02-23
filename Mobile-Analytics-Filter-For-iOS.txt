@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: Mobile Analytics Filter For iOS
-! Version: 1.14
-! Last modified: February 10th 2022, 11:02 AM MST
+! Version: 1.15
+! Last modified: February 22nd 2022, 10:20 PM MST
 ! Website: https://github.com/AtomicFallout757/Mobile-Analytics-Filter-For-iOS
 ! Description: A simple filter that blocks various analytics on iOS devices. It blocks most analytics domains that aren't blocked by other lists (e.g. EasyPrivacy, etc.) but it does not block domains that are already blocked by other, popular lists, and thus this filter is best used alongside those other lists. Additionally, this should work on other operating systems just fine, but it will not block analytics unique to that OS.
 ! Credits: AtomicFallout757 and AdGuard Pro For iOS
-! Rules Count: 52
+! Rules Count: 57
 !
 !----------Mobile Analytics Domains----------!
 ||2-01-37d2-0004-cdx.cedexis.net^
@@ -21,6 +21,7 @@
 ||cdn.civicscience.com^
 ||cdn.embedly.com^
 ||cdn-fsly.yottaa.net^
+||cdnssl.clicktale.net^
 ||cdn.speedcurve.com^
 ||cdn-us-ec.yottaa.net^
 ||cdns.gigya.com^
@@ -46,8 +47,11 @@
 ||i-cdn.embed.ly^
 ||i.embed.ly^
 ||js.hs-scripts.com^
+||k-aus1.clicktale.net^
 ||lowes15841z.btttag.com^
 ||notify.bugsnag.com
+||q-aus1.clicktale.net^
+||r.3gl.net^
 ||remote-data.urbanairship.com^
 ||reports.crashlytics.com^
 ||sentry.io^
@@ -60,6 +64,7 @@
 ||s.w.org^
 ||s.yimg.com^
 ||www138.civicscience.com^
+||www.powr.io^
 
 Release Notes:
 
@@ -140,3 +145,15 @@ v1.13
 v1.14
  
 • Added the "gray-dcc-gray-prod.cdn.arcpublishing.com" domain.
+
+v1.15
+
+• Added the "cdnssl.clicktale.net" domain.
+
+• Added the "k-aus1.clicktale.net" domain.
+
+• Added the "q-aus1.clicktale.net" domain.
+
+• Added the "r.3gl.net" domain.
+
+• Added the "www.powr.io" domain.

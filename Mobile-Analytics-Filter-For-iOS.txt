@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: Mobile Analytics Filter For iOS
-! Version: 1.17
-! Last modified: March 7th 2022, 2:50 PM MST
+! Version: 1.18
+! Updated: April 11th 2022, 11:39 AM MST
 ! Website: https://github.com/AtomicFallout757/Mobile-Analytics-Filter-For-iOS
 ! Description: A simple filter that blocks various analytics on iOS devices. It blocks most analytics domains that aren't blocked by other lists (e.g. EasyPrivacy, etc.) but it does not block domains that are already blocked by other, popular lists, and thus this filter is best used alongside those other lists. Additionally, this should work on other operating systems just fine, but it will not block analytics unique to that OS.
 ! Credits: AtomicFallout757 and AdGuard Pro For iOS
-! Rules Count: 61
+! Rules Count: 66
 !
 !----------Mobile Analytics Domains----------!
 ||2-01-37d2-0004-cdx.cedexis.net^
@@ -40,6 +40,7 @@
 ||device-api.urbanairship.com^
 ||dev.visualwebsiteoptimizer.com^
 ||ds-global3.l7.search.ystg1.b.yahoo.com^
+||edge-mcdn.secure.yahoo.com^
 ||firebase-settings.crashlytics.com^
 ||gray-dcc-gray-prod.cdn.arcpublishing.com^
 ||heapanalytics.com^
@@ -53,6 +54,8 @@
 ||k-aus1.clicktale.net^
 ||lowes15841z.btttag.com^
 ||map.sddan.com^
+||new-fp-shed.wg1.b.yahoo.com^
+||n.gemini.yahoo.com^
 ||notify.bugsnag.com^
 ||q-aus1.clicktale.net^
 ||r.3gl.net^
@@ -66,9 +69,11 @@
 ||storage.pardot.com^
 ||s0.wp.com^
 ||s.w.org^
+||us-west-1-web-oao.ssp.yahoo.com^
 ||www138.civicscience.com^
 ||www.powr.io^
 ||www.vcita.com^
+||web-oao.ssp.yahoo.com^
 
 Release Notes:
 
@@ -177,3 +182,15 @@ v1.17
 • Added the "map.sddan.com" domain.
 
 • Removed the "s.yimg.com" domain.
+
+v1.18
+
+• Added the "edge-mcdn.secure.yahoo.com" domain.
+
+• Added the "new-fp-shed.wg1.b.yahoo.com" domain.
+
+• Added the "n.gemini.yahoo.com" domain.
+
+• Added the "us-west-1-web-oao.ssp.yahoo.com" domain.
+
+• Added the "web-oao.ssp.yahoo.com" domain.

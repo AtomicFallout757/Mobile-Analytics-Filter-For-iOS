@@ -1,17 +1,18 @@
 [Adblock Plus 2.0]
 ! Title: Mobile Analytics Filter For iOS
-! Version: 1.18
-! Updated: April 11th 2022, 11:39 AM MST
-! Website: https://github.com/AtomicFallout757/Mobile-Analytics-Filter-For-iOS
+! Version: 1.19
+! Last modified: April 22nd 2022, 11:37 AM MST
+! Homepage: https://github.com/AtomicFallout757/Mobile-Analytics-Filter-For-iOS
 ! Description: A simple filter that blocks various analytics on iOS devices. It blocks most analytics domains that aren't blocked by other lists (e.g. EasyPrivacy, etc.) but it does not block domains that are already blocked by other, popular lists, and thus this filter is best used alongside those other lists. Additionally, this should work on other operating systems just fine, but it will not block analytics unique to that OS.
 ! Credits: AtomicFallout757 and AdGuard Pro For iOS
-! Rules Count: 66
+! Rules Count: 68
 !
 !----------Mobile Analytics Domains----------!
 ||2-01-37d2-0004-cdx.cedexis.net^
 ||2-01-37d2-0006.cdx.cedexis.net^
 ||256b37b083ac0136c600123dfe2baf36.yottaa.net^
 ||43a6fe60e806013555ed0a3ba3fac80a.yottaa.net^
+||9cea831010e501323ca51231381401ec.yottaa.net^
 ||b47257d0a24c013668370a3ba3fac80a.yottaa.net^
 ||app.adjust.com^
 ||app-measurement.com^
@@ -25,6 +26,7 @@
 ||cdnssl.clicktale.net^
 ||cdn.speedcurve.com^
 ||cdn-us-ec.yottaa.net^
+||cdn-vzn.yottaa.net^
 ||cdns.gigya.com^
 ||cdns.us1.gigya.com^
 ||cds.d8q5m2a3.hwcdn.net^
@@ -194,3 +196,9 @@ v1.18
 • Added the "us-west-1-web-oao.ssp.yahoo.com" domain.
 
 • Added the "web-oao.ssp.yahoo.com" domain.
+
+v1.19
+
+• Added the "cdn-vzn.yottaa.net" domain.
+
+• Added the "9cea831010e501323ca51231381401ec.yottaa.net" domain.

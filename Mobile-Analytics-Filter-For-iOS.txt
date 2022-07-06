@@ -1,13 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Mobile Analytics Filter For iOS
-! Version: 1.2.1
-! Last modified: June 10th 2022, 11:35 AM MST
+! Version: 1.2.2
+! Last modified: July 6th 2022, 10:59 AM MST
 ! Homepage: https://github.com/AtomicFallout757/Mobile-Analytics-Filter-For-iOS
 ! Description: A simple filter that blocks various analytics on iOS devices. It blocks most analytics domains that aren't blocked by other lists (e.g. EasyPrivacy, etc.) but it does not block domains that are already blocked by other, popular lists, and thus this filter is best used alongside those other lists. Additionally, this should work on other operating systems just fine, but it will not block analytics unique to that OS.
 ! Credits: AtomicFallout757 and AdGuard Pro For iOS
-! Rules Count: 74
+! Rules Count: 78
 !
 !----------Mobile Analytics Domains----------!
+||2-01-37d2-0004.cdx.cedexus.net^
 ||2-01-37d2-0004-cdx.cedexis.net^
 ||2-01-37d2-0006.cdx.cedexis.net^
 ||256b37b083ac0136c600123dfe2baf36.yottaa.net^
@@ -36,6 +37,7 @@
 ||cds.s2t5a7h4.hwcdn.net^
 ||cds.s5x3j6q5.hwcdn.net^
 ||cds.y8e8t2m5.hwcdn.net^
+||cds.y9r3n7y9.hwcdn.net^
 ||cds.z8y8f3q6.hwcdn.net^
 ||checkout-sdk.bigcommerce.com^
 ||collector-pxu6b0qd2s.perimeterx.net^
@@ -56,6 +58,7 @@
 ||i2.wp.com^
 ||i-cdn.embed.ly^
 ||i.embed.ly^
+||impression.appsflyer.com^
 ||js.hs-scripts.com^
 ||js.sddan.com^
 ||k-aus1.clicktale.net^
@@ -77,6 +80,7 @@
 ||s0.wp.com^
 ||s.w.org^
 ||us-west-1-web-oao.ssp.yahoo.com^
+||view.adjust.com^
 ||vip0x010.map2.ssl.hwcdn.net^
 ||www138.civicscience.com^
 ||www.powr.io^
@@ -224,3 +228,13 @@ v1.2.1
 • Added the "cdn.appdynamics.com" domain.
 
 • Added the "vip0x010.map2.ssl.hwcdn.net" domain.
+
+v1.2.2
+
+• Added the "2-01-37d2-0004.cdx.cedexus.net" domain.
+
+• Added the "cds.y9r3n7y9.hwcdn.net" domain.
+
+• Added the "impression.appsflyer.com" domain.
+
+• Added the "view.adjust.com" domain.

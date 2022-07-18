@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: Mobile Analytics Filter For iOS
-! Version: 1.2.3
-! Last modified: July 11th 2022, 5:18 PM MST
+! Version: 1.2.4
+! Last modified: July 18th, 2022, 11:13 AM MST
 ! Homepage: https://github.com/AtomicFallout757/Mobile-Analytics-Filter-For-iOS
 ! Description: A simple filter that blocks various analytics on iOS devices. It blocks most analytics domains that aren't blocked by other lists (e.g. EasyPrivacy, etc.) but it does not block domains that are already blocked by other, popular lists, and thus this filter is best used alongside those other lists. Additionally, this should work on other operating systems just fine, but it will not block analytics unique to that OS.
 ! Credits: AtomicFallout757 and AdGuard Pro For iOS
-! Rules Count: 82
+! Rules Count: 88
 !
 !----------Mobile Analytics Domains----------!
 ||2-01-37d2-0004.cdx.cedexus.net^
@@ -30,6 +30,7 @@
 ||cdn-fsly.yottaa.net^
 ||cdnssl.clicktale.net^
 ||cdn.speedcurve.com^
+||cdn.ssp.yahoo.com^
 ||cdn-us-ec.yottaa.net^
 ||cdn-vzn.yottaa.net^
 ||cdns.gigya.com^
@@ -52,26 +53,29 @@
 ||ds-global3.l7.search.ystg1.b.yahoo.com^
 ||edge-mcdn.secure.yahoo.com^
 ||embed-fastly.wistia.com^
+||embed.fireplace.yahoo.com^
 ||fast.wistia.com^
 ||firebase-settings.crashlytics.com^
 ||gray-dcc-gray-prod.cdn.arcpublishing.com^
 ||grey-kptv-prod.cdn.arcpublishing.com^
+||guce.yahoo.com^
 ||heapanalytics.com^
 ||i0.wp.com^
 ||i1.wp.com^
 ||i2.wp.com^
 ||i-cdn.embed.ly^
 ||i.embed.ly^
+||iconmedia.containers.piwik.pro^
 ||impression.appsflyer.com^
 ||js.hs-scripts.com^
 ||js.sddan.com^
 ||k-aus1.clicktale.net^
 ||lowes15841z.btttag.com^
 ||map.sddan.com^
-||new-fp-shed.wg1.b.yahoo.com^
 ||n.gemini.yahoo.com^
 ||notify.bugsnag.com^
 ||q-aus1.clicktale.net^
+||query1.finance.yahoo.com^
 ||r.3gl.net^
 ||remote-data.urbanairship.com^
 ||reports.crashlytics.com^
@@ -81,8 +85,10 @@
 ||settings.crashlytics.com^
 ||snap.licdn.com^
 ||storage.pardot.com^
+||streamer.finance.yahoo.com^
 ||s0.wp.com^
 ||s.w.org^
+||udc.yahoo.com^
 ||us-west-1-web-oao.ssp.yahoo.com^
 ||view.adjust.com^
 ||vip0x010.map2.ssl.hwcdn.net^
@@ -243,7 +249,7 @@ v1.2.2
 
 • Added the "view.adjust.com" domain.
 
-v1.2.3 - July 11th 2022
+v1.2.3 - July 11th, 2022
 
 • Added the "b0ef1370c4060136ebe1123dfe2baf36.yottaa.net" domain.
 
@@ -252,3 +258,21 @@ v1.2.3 - July 11th 2022
 • Added the "bes.gcp.data.bigcommerce.com" domain.
 
 • Added the "cdn1.bigcommerce.com" domain.
+
+v1.2.4 - July 18th, 2022
+
+• Added the "cdn.ssp.yahoo.com" domain.
+
+• Added the "embed.fireplace.yahoo.com" domain.
+
+• Added the "guce.yahoo.com" domain.
+
+• Added the "iconmedia.containers.piwik.pro" domain.
+
+• Added the "streamer.finance.yahoo.com" domain.
+
+• Added the "udc.yahoo.com" domain.
+
+• Added the "query1.finance.yahoo.com" domain.
+
+• Removed the "new-fp-shed.wg1.b.yahoo.com" domain.

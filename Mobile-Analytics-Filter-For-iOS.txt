@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: Mobile Analytics Filter For iOS
-! Version: 1.2.5
-! Last modified: August 2nd, 2022, 12:08 PM MST
+! Version: 1.2.6
+! Last modified: August 12th, 2022, 6:40 PM MST
 ! Homepage: https://github.com/AtomicFallout757/Mobile-Analytics-Filter-For-iOS
 ! Description: A simple filter that blocks various analytics on iOS devices. It blocks most analytics domains that aren't blocked by other lists (e.g. EasyPrivacy, etc.) but it does not block domains that are already blocked by other, popular lists, and thus this filter is best used alongside those other lists. Additionally, this should work on other operating systems just fine, but it will not block analytics unique to that OS.
 ! Credits: AtomicFallout757 and AdGuard Pro For iOS
-! Rules Count: 84
+! Rules Count: 90
 !
 !----------Mobile Analytics Domains----------!
 ||2-01-37d2-0004.cdx.cedexus.net^
@@ -17,6 +17,7 @@
 ||b0ef1370c4060136ebe1123dfe2baf36.yottaa.net^
 ||b47257d0a24c013668370a3ba3fac80a.yottaa.net^
 ||apple-finance.query.yahoo.com^
+||assets.jetlore.com^
 ||bes.gcp.data.bigcommerce.com^
 ||c0.wp.com^
 ||c2shb.ssp.yahoo.com^
@@ -35,17 +36,21 @@
 ||cdns.us1.gigya.com^
 ||cds.d8q5m2a3.hwcdn.net^
 ||cds.g9c9c3d5.hwcdn.net^
+||cds.q4m3c6d3.hwcdn.net^
 ||cds.q8q4g4t6.hwcdn.net^
 ||cds.s2t5a7h4.hwcdn.net^
 ||cds.s5x3j6q5.hwcdn.net^
+||cds.u7z7s9r4.hwcdn.net^
 ||cds.y8e8t2m5.hwcdn.net^
 ||cds.y9r3n7y9.hwcdn.net^
 ||cds.z8y8f3q6.hwcdn.net^
+||co1.qualtrics.com^
 ||checkout-sdk.bigcommerce.com^
 ||collector-pxu6b0qd2s.perimeterx.net^
 ||combine.urbanairship.com^
 ||config.playwire.com^
 ||d1tprjo2w7krrh.cloudfront.net^
+||d21gpk1vhmjuf5.clountfront.net^
 ||device-api.urbanairship.com^
 ||dev.visualwebsiteoptimizer.com^
 ||ds-global3.l7.search.ystg1.b.yahoo.com^
@@ -64,6 +69,7 @@
 ||i.embed.ly^
 ||iconmedia.containers.piwik.pro^
 ||impression.appsflyer.com^
+||jetpack.wordpress.com^
 ||js.hs-scripts.com^
 ||js.sddan.com^
 ||k-aus1.clicktale.net^
@@ -286,3 +292,17 @@ v1.2.4 - July 18th, 2022
 • Removed the "reports.crashlytics.com" domain.
 
 • Removed the "settings.crashlytics.com" domain.
+
+v1.2.6 - August 12th, 2022
+
+• Added the "assets.jetlore.com" domain.
+
+• Added the "co1.qualtrics.com" domain.
+
+• Added the "cds.q4m3c6d3.hwcdn.net" domain.
+
+• Added the "cds.u7z7s9r4.hwcdn.net" domain.
+
+• Added the "d21gpk1vhmjuf5.clountfront.net" domain.
+
+• Added the "jetpack.wordpress.com" domain.

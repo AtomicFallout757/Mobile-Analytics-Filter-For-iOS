@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: Mobile Analytics Filter For iOS
-! Version: 1.2.6
-! Last modified: August 12th, 2022, 6:40 PM MST
+! Version: 1.2.7
+! Last modified: August 31st, 2022, 6:44 PM MST
 ! Homepage: https://github.com/AtomicFallout757/Mobile-Analytics-Filter-For-iOS
 ! Description: A simple filter that blocks various analytics on iOS devices. It blocks most analytics domains that aren't blocked by other lists (e.g. EasyPrivacy, etc.) but it does not block domains that are already blocked by other, popular lists, and thus this filter is best used alongside those other lists. Additionally, this should work on other operating systems just fine, but it will not block analytics unique to that OS.
 ! Credits: AtomicFallout757 and AdGuard Pro For iOS
-! Rules Count: 90
+! Rules Count: 92
 !
 !----------Mobile Analytics Domains----------!
 ||2-01-37d2-0004.cdx.cedexus.net^
@@ -46,6 +46,8 @@
 ||cds.z8y8f3q6.hwcdn.net^
 ||co1.qualtrics.com^
 ||checkout-sdk.bigcommerce.com^
+||client.perimeterx.net^
+||collector-px3vk96i6i.perimeterx.net^
 ||collector-pxu6b0qd2s.perimeterx.net^
 ||combine.urbanairship.com^
 ||config.playwire.com^
@@ -101,208 +103,8 @@
 
 Release Notes:
 
-v1.0.0
+v1.2.7
 
-• Initial private release.
+• Added the "client.perimeterx.net" domain.
 
-v1.0.1
-
-• Initial public release.
-
-v1.0.2
-
-• Added the "s0.wp.com" domain.
-
-v1.0.3
-
-• Added the "cds.g9c9c3d5.hwcdn.net" domain.
-
-• Added the "cds.z8y8f3q6.hwcdn.net" domain.
-
-v1.0.4
-
-• Added the "s.yimg.com" domain.
-
-v1.0.5
-
-• Added the "cdns.gigya.com" domain.
-
-• Added the "cdns.us1.gigya.com" domain.
-
-• Added the "socialize.us1.gigya.com" domain.
-
-v1.0.6
-
-• Added the "snap.licdn.com" domain.
-
-• Added the "cds.q8q4g4t6.hwcdn.net" domain.
-
-v1.0.7
-
-• Added the "2-01-37d2-0006.cdx.cedexis.net" domain.
-
-• Added the "c2shb.ssp.yahoo.com" domain.
-
-v1.0.8
-
-• Added the "cdn.speedcurve.com" domain.
-
-v1.0.9
-
-• Added the "cds.d8q5m2a3.hwcdn.net" domain.
-
-• Added the "cds.y8e8t2m5.hwcdn.net" domain.
-
-v1.1.0
-
-• Added the "storage.pardot.com" domain.
-
-v1.1.1
-
-• Added the "i.embed.ly" domain.
-
-• Added the "lowes15841z.btttag.com" domain.
-
-v1.1.2
-
-• Added the "b47257d0a24c013668370a3ba3fac80a.yottaa.net" domain.
-
-• Added the "config.playwire.com" domain.
-
-v1.1.3
-
-• Added the "2-01-37d2-0004-cdx.cedexis.net" domain.
-
-• Added the "ds-global3.l7.search.ystg1.b.yahoo.com" domain.
-
-v1.1.4
- 
-• Added the "gray-dcc-gray-prod.cdn.arcpublishing.com" domain.
-
-v1.1.5
-
-• Added the "cdnssl.clicktale.net" domain.
-
-• Added the "k-aus1.clicktale.net" domain.
-
-• Added the "q-aus1.clicktale.net" domain.
-
-• Added the "r.3gl.net" domain.
-
-• Added the "www.powr.io" domain.
-
-v1.1.6
-
-• Added the "www.vcita.com" domain.
-
-v1.1.7
-
-• Added the "cdn11.bigcommerce.com" domain.
-
-• Added the "checkout-sdk.bigcommerce.com" domain.
-
-• Added the "js.sddan.com" domain.
-
-• Added the "map.sddan.com" domain.
-
-• Removed the "s.yimg.com" domain.
-
-v1.1.8
-
-• Added the "edge-mcdn.secure.yahoo.com" domain.
-
-• Added the "new-fp-shed.wg1.b.yahoo.com" domain.
-
-• Added the "n.gemini.yahoo.com" domain.
-
-• Added the "us-west-1-web-oao.ssp.yahoo.com" domain.
-
-• Added the "web-oao.ssp.yahoo.com" domain.
-
-v1.1.9
-
-• Added the "cdn-vzn.yottaa.net" domain.
-
-• Added the "9cea831010e501323ca51231381401ec.yottaa.net" domain.
-
-v1.2.0
-
-• Added the "cds.s2t5a7h4.hwcdn.net" domain.
-
-• Added the "d1tprjo2w7krrh.cloudfront.net" domain.
-
-• Added the "embed-fastly.wistia.com" domain.
-
-• Added the "fast.wistia.com" domain.
-
-v1.2.1
-
-• Added the "cdn.appdynamics.com" domain.
-
-• Added the "vip0x010.map2.ssl.hwcdn.net" domain.
-
-v1.2.2
-
-• Added the "2-01-37d2-0004.cdx.cedexus.net" domain.
-
-• Added the "cds.y9r3n7y9.hwcdn.net" domain.
-
-• Added the "impression.appsflyer.com" domain.
-
-• Added the "view.adjust.com" domain.
-
-v1.2.3 - July 11th, 2022
-
-• Added the "b0ef1370c4060136ebe1123dfe2baf36.yottaa.net" domain.
-
-• Added the "grey-kptv-prod.cdn.arcpublishing.com" domain.
-
-• Added the "bes.gcp.data.bigcommerce.com" domain.
-
-• Added the "cdn1.bigcommerce.com" domain.
-
-v1.2.4 - July 18th, 2022
-
-• Added the "cdn.ssp.yahoo.com" domain.
-
-• Added the "embed.fireplace.yahoo.com" domain.
-
-• Added the "guce.yahoo.com" domain.
-
-• Added the "iconmedia.containers.piwik.pro" domain.
-
-• Added the "streamer.finance.yahoo.com" domain.
-
-• Added the "udc.yahoo.com" domain.
-
-• Added the "query1.finance.yahoo.com" domain.
-
-• Removed the "new-fp-shed.wg1.b.yahoo.com" domain.
-
-• v1.2.5 - August 2nd, 2022
-
-• Added the "yui-s.yahooapis.com" domain.
-
-• Removed the "app.adjust.com" domain.
-
-• Removed the "app-measurement.com" domain.
-
-• Removed the "firebase-settings.crashlytics.com" domain.
-
-• Removed the "reports.crashlytics.com" domain.
-
-• Removed the "settings.crashlytics.com" domain.
-
-v1.2.6 - August 12th, 2022
-
-• Added the "assets.jetlore.com" domain.
-
-• Added the "co1.qualtrics.com" domain.
-
-• Added the "cds.q4m3c6d3.hwcdn.net" domain.
-
-• Added the "cds.u7z7s9r4.hwcdn.net" domain.
-
-• Added the "d21gpk1vhmjuf5.clountfront.net" domain.
-
-• Added the "jetpack.wordpress.com" domain.
+• Added the "collector-px3vk96i6i.perimeterx.net" domain.

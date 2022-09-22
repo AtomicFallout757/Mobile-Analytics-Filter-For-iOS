@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: Mobile Analytics Filter For iOS
-! Version: 1.2.7
-! Last modified: August 31st, 2022, 6:44 PM MST
+! Version: 1.2.8
+! Last modified: September 21st, 2022, 10:06 PM MST
 ! Homepage: https://github.com/AtomicFallout757/Mobile-Analytics-Filter-For-iOS
 ! Description: A simple filter that blocks various analytics on iOS devices. It blocks most analytics domains that aren't blocked by other lists (e.g. EasyPrivacy, etc.) but it does not block domains that are already blocked by other, popular lists, and thus this filter is best used alongside those other lists. Additionally, this should work on other operating systems just fine, but it will not block analytics unique to that OS.
 ! Credits: AtomicFallout757 and AdGuard Pro For iOS
-! Rules Count: 92
+! Rules Count: 94
 !
 !----------Mobile Analytics Domains----------!
 ||2-01-37d2-0004.cdx.cedexus.net^
@@ -44,9 +44,10 @@
 ||cds.y8e8t2m5.hwcdn.net^
 ||cds.y9r3n7y9.hwcdn.net^
 ||cds.z8y8f3q6.hwcdn.net^
-||co1.qualtrics.com^
 ||checkout-sdk.bigcommerce.com^
 ||client.perimeterx.net^
+||co1.qualtrics.com^
+||col.eum-appdynamics.com^
 ||collector-px3vk96i6i.perimeterx.net^
 ||collector-pxu6b0qd2s.perimeterx.net^
 ||combine.urbanairship.com^
@@ -77,6 +78,7 @@
 ||k-aus1.clicktale.net^
 ||lowes15841z.btttag.com^
 ||map.sddan.com^
+||mobile.eum-appdynamics.com^
 ||n.gemini.yahoo.com^
 ||notify.bugsnag.com^
 ||q-aus1.clicktale.net^
@@ -103,8 +105,8 @@
 
 Release Notes:
 
-v1.2.7
+v1.2.8 - September 21st, 2022
 
-• Added the "client.perimeterx.net" domain.
+• Added the "col.eum-appdynamics.com" domain.
 
-• Added the "collector-px3vk96i6i.perimeterx.net" domain.
+• Added the "mobile.eum-appdynamics.com" domain.

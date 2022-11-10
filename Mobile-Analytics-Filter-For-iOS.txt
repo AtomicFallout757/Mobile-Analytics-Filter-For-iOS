@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: Mobile Analytics Filter For iOS
-! Version: 1.2.9
-! Last modified: September 28th, 2022, 3:21 PM MST
+! Version: 1.3.0
+! Last modified: November 10th, 2022, 10:55 AM MST
 ! Homepage: https://github.com/AtomicFallout757/Mobile-Analytics-Filter-For-iOS
 ! Description: A simple filter that blocks various analytics on iOS devices. It blocks most analytics domains that aren't blocked by other lists (e.g. EasyPrivacy, etc.) but it does not block domains that are already blocked by other, popular lists, and thus this filter is best used alongside those other lists. Additionally, this should work on other operating systems just fine, but it will not block analytics unique to that OS.
 ! Credits: AtomicFallout757 and AdGuard Pro For iOS
-! Rules Count: 95
+! Rules Count: 97
 !
 !----------Mobile Analytics Domains----------!
 ||2-01-37d2-0004.cdx.cedexus.net^
@@ -43,6 +43,7 @@
 ||cds.u7z7s9r4.hwcdn.net^
 ||cds.y8e8t2m5.hwcdn.net^
 ||cds.y9r3n7y9.hwcdn.net^
+||cds.x6f8k9z3.hwcdn.net^
 ||cds.z8y8f3q6.hwcdn.net^
 ||checkout-sdk.bigcommerce.com^
 ||client.perimeterx.net^
@@ -81,6 +82,7 @@
 ||mobile.eum-appdynamics.com^
 ||n.gemini.yahoo.com^
 ||notify.bugsnag.com^
+||pr-bh.ybp.yahoo.com^
 ||q-aus1.clicktale.net^
 ||query1.finance.yahoo.com^
 ||r.3gl.net^
@@ -106,6 +108,8 @@
 
 Release Notes:
 
-v1.2.9 - September 28th, 2022
+v1.3.0 - November 10th, 2022
 
-• Added the "uop.umeng.com" domain.
+• Added the "cds.x6f8k9z3.hwcdn.net" domain.
+
+• Added the "pr-bh.ybp.yahoo.com" domain.

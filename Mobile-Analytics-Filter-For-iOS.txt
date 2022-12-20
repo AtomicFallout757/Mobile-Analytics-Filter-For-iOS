@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: Mobile Analytics Filter For iOS
-! Version: 1.3.1
-! Last modified: November 29th, 2022, 10:55 AM MST
+! Version: 1.3.2
+! Last modified: December 20th, 2022, 11:07 AM MST
 ! Homepage: https://github.com/AtomicFallout757/Mobile-Analytics-Filter-For-iOS
 ! Description: A simple filter that blocks various analytics on iOS devices. It blocks most analytics domains that aren't blocked by other lists (e.g. EasyPrivacy, etc.) but it does not block domains that are already blocked by other, popular lists, and thus this filter is best used alongside those other lists. Additionally, this should work on other operating systems just fine, but it will not block analytics unique to that OS.
 ! Credits: AtomicFallout757 and AdGuard Pro For iOS
-! Rules Count: 98
+! Rules Count: 88
 !
 !----------Mobile Analytics Domains----------!
 ||2-01-37d2-0004.cdx.cedexus.net^
@@ -16,6 +16,7 @@
 ||9cea831010e501323ca51231381401ec.yottaa.net^
 ||b0ef1370c4060136ebe1123dfe2baf36.yottaa.net^
 ||b47257d0a24c013668370a3ba3fac80a.yottaa.net^
+||api.qubit.com^
 ||apple-finance.query.yahoo.com^
 ||assets.jetlore.com^
 ||bes.gcp.data.bigcommerce.com^
@@ -34,18 +35,6 @@
 ||cdn-vzn.yottaa.net^
 ||cdns.gigya.com^
 ||cdns.us1.gigya.com^
-||cds.d8q5m2a3.hwcdn.net^
-||cds.g9c9c3d5.hwcdn.net^
-||cds.n2x5a7t6.hwcdn.net^
-||cds.q4m3c6d3.hwcdn.net^
-||cds.q8q4g4t6.hwcdn.net^
-||cds.s2t5a7h4.hwcdn.net^
-||cds.s5x3j6q5.hwcdn.net^
-||cds.u7z7s9r4.hwcdn.net^
-||cds.y8e8t2m5.hwcdn.net^
-||cds.y9r3n7y9.hwcdn.net^
-||cds.x6f8k9z3.hwcdn.net^
-||cds.z8y8f3q6.hwcdn.net^
 ||checkout-sdk.bigcommerce.com^
 ||client.perimeterx.net^
 ||co1.qualtrics.com^
@@ -67,6 +56,7 @@
 ||grey-kptv-prod.cdn.arcpublishing.com^
 ||guce.yahoo.com^
 ||heapanalytics.com^
+||hwcdn.net^
 ||i0.wp.com^
 ||i1.wp.com^
 ||i2.wp.com^
@@ -109,6 +99,10 @@
 
 Release Notes:
 
-v1.3.1 - November 29th, 2022
+v1.3.2 - December 20th, 2022
 
-• Added the "cds.n2x5a7t6.hwcdn.net" domain.
+• Added the "api.qubit.com" domain.
+
+• Removed various "hwcdn.net" domains.
+
+• Added a singular "hwcdn.net" domain.

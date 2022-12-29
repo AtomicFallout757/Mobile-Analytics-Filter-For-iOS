@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: Mobile Analytics Filter For iOS
-! Version: 1.3.3
-! Last modified: December 27th, 2022, 12:56 PM MST
+! Version: 1.3.4
+! Last modified: December 29th, 2022, 11:50 AM MST
 ! Homepage: https://github.com/AtomicFallout757/Mobile-Analytics-Filter-For-iOS
 ! Description: A simple filter that blocks various analytics on iOS devices. It blocks most analytics domains that aren't blocked by other lists (e.g. EasyPrivacy, etc.) but it does not block domains that are already blocked by other, popular lists, and thus this filter is best used alongside those other lists. Additionally, this should work on other operating systems just fine, but it will not block analytics unique to that OS.
 ! Credits: AtomicFallout757 and AdGuard Pro For iOS
-! Rules Count: 92
+! Rules Count: 95
 !
 !----------Mobile Analytics Domains----------!
 ||2-01-37d2-0004.cdx.cedexus.net^
@@ -39,6 +39,7 @@
 ||client.perimeterx.net^
 ||co1.qualtrics.com^
 ||col.eum-appdynamics.com^
+||collector-px3d8mkyg1.perimeterx.net^
 ||collector-px3vk96i6i.perimeterx.net^
 ||collector-pxu6b0qd2s.perimeterx.net^
 ||combine.urbanairship.com^
@@ -78,6 +79,8 @@
 ||n.gemini.yahoo.com^
 ||notify.bugsnag.com^
 ||pr-bh.ybp.yahoo.com^
+||px-conf.perimeterx.net^
+||px-conf-ipv.perimeterx.net^
 ||q-aus1.clicktale.net^
 ||query1.finance.yahoo.com^
 ||r.3gl.net^
@@ -103,12 +106,10 @@
 
 Release Notes:
 
-v1.3.3 - December 27th, 2022
+v1.3.4 - December 29th, 2022
 
-• Added the "microapps.bigcommerce.com" domain.
+• Added the "px-conf.perimeterx.net" domain.
 
-• Added the "kinja.com" domain.
+• Added the "px-conf-ipv.perimeterx.net" domain.
 
-• Added the "kinja-img.com" domain.
-
-• Added the "kinja-static.com" domain.
+• Added the "collector-px3d8mkyg1.perimeterx.net" domain.

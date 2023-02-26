@@ -1,21 +1,13 @@
 [Adblock Plus 2.0]
 ! Title: Mobile Analytics Filter For iOS
-! Version: 1.3.4
-! Last modified: December 29th, 2022, 11:50 AM MST
+! Version: 1.3.5
+! Last modified: February 26th, 2022, 9:22 AM MST
 ! Homepage: https://github.com/AtomicFallout757/Mobile-Analytics-Filter-For-iOS
 ! Description: A simple filter that blocks various analytics on iOS devices. It blocks most analytics domains that aren't blocked by other lists (e.g. EasyPrivacy, etc.) but it does not block domains that are already blocked by other, popular lists, and thus this filter is best used alongside those other lists. Additionally, this should work on other operating systems just fine, but it will not block analytics unique to that OS.
 ! Credits: AtomicFallout757 and AdGuard Pro For iOS
-! Rules Count: 95
+! Rules Count: 80
 !
 !----------Mobile Analytics Domains----------!
-||2-01-37d2-0004.cdx.cedexus.net^
-||2-01-37d2-0004-cdx.cedexis.net^
-||2-01-37d2-0006.cdx.cedexis.net^
-||256b37b083ac0136c600123dfe2baf36.yottaa.net^
-||43a6fe60e806013555ed0a3ba3fac80a.yottaa.net^
-||9cea831010e501323ca51231381401ec.yottaa.net^
-||b0ef1370c4060136ebe1123dfe2baf36.yottaa.net^
-||b47257d0a24c013668370a3ba3fac80a.yottaa.net^
 ||api.qubit.com^
 ||apple-finance.query.yahoo.com^
 ||assets.jetlore.com^
@@ -27,21 +19,15 @@
 ||cdn.appdynamics.com^
 ||cdn.civicscience.com^
 ||cdn.embedly.com^
-||cdn-fsly.yottaa.net^
 ||cdnssl.clicktale.net^
 ||cdn.speedcurve.com^
 ||cdn.ssp.yahoo.com^
-||cdn-us-ec.yottaa.net^
-||cdn-vzn.yottaa.net^
 ||cdns.gigya.com^
 ||cdns.us1.gigya.com^
+||cdx.cedexis.net^
 ||checkout-sdk.bigcommerce.com^
-||client.perimeterx.net^
 ||co1.qualtrics.com^
 ||col.eum-appdynamics.com^
-||collector-px3d8mkyg1.perimeterx.net^
-||collector-px3vk96i6i.perimeterx.net^
-||collector-pxu6b0qd2s.perimeterx.net^
 ||combine.urbanairship.com^
 ||config.playwire.com^
 ||d1tprjo2w7krrh.cloudfront.net^
@@ -78,9 +64,8 @@
 ||mobile.eum-appdynamics.com^
 ||n.gemini.yahoo.com^
 ||notify.bugsnag.com^
+||perimeterx.net^
 ||pr-bh.ybp.yahoo.com^
-||px-conf.perimeterx.net^
-||px-conf-ipv.perimeterx.net^
 ||q-aus1.clicktale.net^
 ||query1.finance.yahoo.com^
 ||r.3gl.net^
@@ -102,14 +87,21 @@
 ||www.powr.io^
 ||www.vcita.com^
 ||web-oao.ssp.yahoo.com^
+||yottaa.net^
 ||yui-s.yahooapis.com^
 
 Release Notes:
 
-v1.3.4 - December 29th, 2022
+v1.3.5 - February 26th, 2023
 
-• Added the "px-conf.perimeterx.net" domain.
+• Removed various "cdx.cedexis.net" domains.
 
-• Added the "px-conf-ipv.perimeterx.net" domain.
+• Added a single "cdx.cedexis.net" domain.
 
-• Added the "collector-px3d8mkyg1.perimeterx.net" domain.
+• Removed various "perimeterx.net" domains.
+
+• Added a single "perimeterx.net" domain.
+
+• Removed various "yottaa.net" domains.
+
+• Added a single "yottaa.net" domain.

@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
 ! Title: Mobile Analytics Filter For iOS
-! Version: 1.3.6
-! Last modified: May 2nd, 2023, 8:55 PM MST
+! Version: 1.3.7
+! Last modified: July 27th, 2023, 10:53 AM MST
 ! Homepage: https://github.com/AtomicFallout757/Mobile-Analytics-Filter-For-iOS
 ! Description: A simple filter that blocks various analytics on iOS devices. It blocks most analytics domains that aren't blocked by other lists (e.g. EasyPrivacy, etc.) but it does not block domains that are already blocked by other, popular lists, and thus this filter is best used alongside those other lists. Additionally, this should work on other operating systems just fine, but it will not block analytics unique to that OS.
 ! Credits: AtomicFallout757 and AdGuard Pro For iOS
-! Rules Count: 83
+! Rules Count: 80
 !
 !----------Mobile Analytics Domains----------!
 ||api.qubit.com^
@@ -29,11 +29,9 @@
 ||checkout-sdk.bigcommerce.com^
 ||co1.qualtrics.com^
 ||col.eum-appdynamics.com^
-||combine.urbanairship.com^
 ||config.playwire.com^
 ||d1tprjo2w7krrh.cloudfront.net^
 ||d21gpk1vhmjuf5.clountfront.net^
-||device-api.urbanairship.com^
 ||dev.visualwebsiteoptimizer.com^
 ||ds-global3.l7.search.ystg1.b.yahoo.com^
 ||edge-mcdn.secure.yahoo.com^
@@ -70,7 +68,6 @@
 ||q-aus1.clicktale.net^
 ||query1.finance.yahoo.com^
 ||r.3gl.net^
-||remote-data.urbanairship.com^
 ||sentry.io^
 ||socalize.us1.gigya.com^
 ||sessions.bugsnag.com^
@@ -95,10 +92,10 @@
 
 Release Notes:
 
-v1.3.6 - May 2nd, 2023
+v1.3.7 - July 27th, 2023
 
-• Added a "assets.squarespace.com" domain.
+• Removed the "combine.urbanairship.com" domain; it is now blocked by EasyPrivacy.
 
-• Added a "s.aolcdn.com" domain.
+• Removed the "device-api.urbanairship.com" domain; it is now blocked by EasyPrivacy.
 
-• Added a "static1.squarespace.com" domain.
+• Removed the "remote-data.urbanairship.com" domain; it is now blocked by EasyPrivacy.

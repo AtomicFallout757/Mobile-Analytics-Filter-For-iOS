@@ -1,13 +1,14 @@
 [Adblock Plus 2.0]
 ! Title: Mobile Analytics Filter For iOS
-! Version: 1.4.1
-! Last modified: December 9th, 2024, 9:40 PM MST
+! Version: 1.4.2
+! Last modified: February 9th, 2025, 8:51 PM MST
 ! Homepage: https://github.com/AtomicFallout757/Mobile-Analytics-Filter-For-iOS
 ! Description: A simple filter that blocks various analytics on iOS devices. It blocks most analytics domains that aren't blocked by other lists (e.g. EasyPrivacy, etc.) but it does not block domains that are already blocked by other, popular lists, and thus this filter is best used alongside those other lists. Additionally, this should work on other operating systems just fine, but it will not block analytics unique to that OS.
 ! Credits: AtomicFallout757 and AdGuard Pro For iOS
-! Rules Count: 88
+! Rules Count: 92
 !
 !----------Mobile Analytics Domains----------!
+||analytics.adjust.com^
 ||api-reuters-reuters-prod.cdn.arcpublishing.com^
 ||api.qubit.com^
 ||apple-finance.query.yahoo.com^
@@ -57,6 +58,7 @@
 ||iconmedia.containers.piwik.pro^
 ||impression.appsflyer.com^
 ||jetpack.wordpress.com^
+||js.appboycdn.com^
 ||js.hs-scripts.com^
 ||js.sddan.com^
 ||k-aus1.clicktale.net^
@@ -75,6 +77,8 @@
 ||q-aus1.clicktale.net^
 ||query1.finance.yahoo.com^
 ||r.3gl.net^
+||realtor.customlinks.appsflyer.com^
+||reports.crashlytics.com^
 ||sentry.io^
 ||socalize.us1.gigya.com^
 ||sessions.bugsnag.com^
@@ -100,8 +104,12 @@
 
 Release Notes:
 
-v1.4.1 - December 9th, 2024
+v1.4.2 - February 9th, 2025
 
-• Re-added the "firebase-settings.crashlytics.com" domain.
+• Added the "analytics.adjust.com" domain.
 
-• Re-added the "settings.crashlytics.com" domain.
+• Added the "js.appboycdn.com" domain.
+
+• Added the "realtor.customlinks.appsflyer.com" domain.
+
+• Added the "reports.crashlytics.com" domain.
